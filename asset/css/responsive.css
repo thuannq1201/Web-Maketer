@@ -1,0 +1,272 @@
+/* LAPTOP */
+@media ( min-width: 1024px ) {
+    .list-sub-nav{
+        display: none;
+    }
+}
+
+/* tablet */
+@media ( min-width: 740px ) and ( max-width: 1023px ){
+    .list-sub-nav{
+        display: none;
+    }
+
+    .header-top{
+        display:none;
+    }
+
+    .header-bottom .nav-bar li{
+        font-size: 15px;
+        margin-right:20px ;
+    }
+
+    .header-bottom .logo img{
+        width: 70%;
+    }
+
+    /* slide-show */
+    .slide-show{
+        height: 400px;
+    }
+
+    .customer-care .heading h3{
+        font-size: 28px;
+    }
+    
+    .customer-care .heading small{
+        font-size: 12px;
+    } 
+    
+    /* marketing */
+    .marketing .list-item{
+        width: 48%;
+    }
+
+    .marketing .list-item img{
+        width: 30%;
+        height: 50%;
+    }
+
+    /* news */
+    .news{
+        margin-bottom: 30px;
+    }
+
+    .news .heading h3 {
+        font-size: 24px;
+    }
+
+    .news .heading p {
+        font-size: 15px;
+    }
+
+    .news a{
+        font-size: 13px;
+        margin-top: 7px;
+        padding: 5px;
+    }
+
+    /* slide-founder */
+    .slide-founder{
+        height: 200px;
+    }
+
+    .slide-founder .heading .founder img{
+        margin-right: 20px;
+    }
+
+    .slide-founder .heading p{
+        font-size: 16px;
+    }
+
+    .cooperation-unit {
+        height: 100px;
+    }
+
+    .cooperation-unit img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .research {
+        height: 800px;
+    }
+
+    footer {
+        height: 250px;
+    }
+
+    .content .contact{
+        font-size: 13px;
+    }
+
+
+}
+
+/* mobile */
+@media (max-width: 739px){
+    .header-top,
+    .header-bottom .nav-bar{
+        display: none;
+    }
+
+    .header-bottom{
+        margin: 0 50px;
+    }
+
+    .header-bottom .logo img {
+        width: 50%;
+    }
+
+    /* slide-show */
+    .slide-show{
+        height: 80vh;
+    }
+
+    .customer-care .heading {
+        margin-bottom: 30px;
+    }
+
+    .customer-care{
+        margin: 0px;
+        flex-direction: column;
+    }
+
+    .customer-care .heading{
+        width: 80%;
+
+    }
+
+    .customer-care .heading h3{
+        margin-bottom: 10px;
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .customer-care img{
+        margin-bottom: 30px;
+    }
+
+    /* marketing */
+    .marketing .list-item {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .marketing .list-item img {
+        margin:0 0 20px 0;
+        width: 50%;
+    }
+
+    .marketing .list-item .heading {
+        text-align: center;
+    }
+
+    /* news */
+    .news {
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    .news .img-news {
+        width: 70%;
+        margin-bottom: 30px;
+    }
+
+    .news .heading h3 {
+        font-size: 18px;
+    }
+
+    .news .heading {
+        width: 80%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    /* slide-founder */
+    .slide-founder .heading{
+        width: 80%;
+        flex-direction: column;
+        height: 80% ;
+    }
+
+    .slide-founder .heading p{
+        width: 100%;
+    }
+
+    .slide-founder .heading .founder{
+        height: 20%;
+        width: 100%;
+    }
+
+    .slide-founder .heading .founder img {
+        width: 20%;
+    }
+
+    .founder .sub-heading p {
+        margin-bottom: 0;
+    }
+
+    .cooperation-unit{
+        justify-content: space-evenly;
+        margin: 0;
+        height: 100px;
+    }
+
+    .cooperation-unit img {
+        width: 50px;
+        height: 50px;
+    }
+
+    /* research */
+    .research{
+        height: 900px;
+    }
+
+    .research .wapper {
+        padding-top: 15px;
+        margin: 0 20px;
+    }
+
+    .research .heading{
+        margin: 0 0 20px;
+    }
+    
+    .research .list-news .news-research{
+        width: 48%;
+    }
+
+    /* footer */
+    footer{
+        height: 350px;
+    }
+
+    footer .content{
+        text-align: center;
+        flex-direction: column;
+        margin: 0 20px;
+
+    }
+
+    .content .contact{
+        width: 100%;
+    }
+
+    .content .sub-logo {
+        margin-bottom: 15px;
+    }
+
+    .content .phone-address{
+        flex-direction: column;
+    }
+
+    .content .address{
+        margin-top: 10px;
+    }
+
+
+
+
+
+}

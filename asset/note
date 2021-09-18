@@ -1,0 +1,44 @@
+
+
+Bố cục trang web: marketer - Nhà tiếp thị
+
+   + header: 
+        - header__contact:
+                - social
+                - phone-mail
+                
+        - header__nav:
+                - logo
+                - nav-bar
+   + .slide-show:
+        h2
+        small
+   + ul.marketing :            
+        - li.list-item
+        - li.list-item
+        - li.list-item
+        - li.list-item
+        - li.list-item
+        - li.list-item
+   + .exchange : thay đổi
+        - slide-exchange
+        - 
+   + banner
+
+   + cooperation-unit: đơn vị hợp tác
+
+   + .research: nghiên cứu
+        - h3
+        - p
+        - list-research:
+                div:
+                        img
+                        a
+
+                * 6 item
+                
+    +footer: 
+        - div.logo
+        - div.c              
+
+
